@@ -22,9 +22,9 @@ jobs:
         run:
             pwd
       
-      - name: Build
-        run:
-            go build cmd/democli
+      # - name: Build
+      #   run:
+      #       go build cmd/democli
 
       - name: Test
-        run: go test -v .
+        run: go test ./...
