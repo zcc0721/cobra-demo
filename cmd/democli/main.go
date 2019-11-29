@@ -3,7 +3,7 @@ package main
 import (
 	"runtime"
 
-	cmd "github.com/cobra-demo/cmd/democli/commands"
+	cmd "github.com/zcc0721/cobra-demo/cmd/democli/commands"
 )
 
 func main() {
