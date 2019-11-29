@@ -23,6 +23,7 @@ jobs:
             pwd
       
       - name: Build
+        run:
             go build cmd/democli
 
       - name: Test
