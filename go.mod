@@ -1,4 +1,4 @@
-module github.com/cobra-demo
+module github.com/zcc0721/cobra-demo
 
 go 1.13
 
