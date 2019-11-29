@@ -17,7 +17,12 @@ jobs:
       - name: Build
         run: 
             cd $GOPATH/src/github.com
+      
+      - name: Pwd
+        run:
             pwd
+      
+      - name: Build
             go build cmd/democli
 
       - name: Test
