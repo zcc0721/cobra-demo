@@ -14,9 +14,9 @@ jobs:
       - name: Check out source code
         uses: actions/checkout@v1
 
-      - name: Build
-        run: 
-            cd $GOPATH/src/github.com
+      # - name: Build
+      #   run: 
+      #       cd $GOPATH/src/github.com
       
       - name: Pwd
         run:
